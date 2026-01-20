@@ -4,7 +4,6 @@ import {
   faFileCode,
   faHome,
 } from "@fortawesome/free-solid-svg-icons";
-import { useRef, useEffect, useState } from "react";
 import NavbarItem from "./NavBarItem";
 
 const Navigation = () => {
