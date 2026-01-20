@@ -5,7 +5,11 @@
   --color-primary: #DCC9B6;
   --color-secondary: #8C7760;
   --color-accents: #F2E9E1;
-  --color-background: #FAFAFA;
+  --color-offwhite: #FAFAFA;
+}
+
+:root {
+  font-size: 16px;
 }
 
 h1 {
