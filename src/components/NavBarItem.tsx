@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { type IconProp } from "@fortawesome/fontawesome-svg-core";
 import { useLocation, Link } from "react-router-dom";
-import { forwardRef } from "react";
 
 interface NavbarItemProps {
   label: string;
@@ -17,7 +16,7 @@ const NavbarItem = ({ label, to, icon, position }: NavbarItemProps) => {
   return (
     <Link
       to={to}
-      className={`z-10 flex flex-row grow items-center justify-center gap-1 transition-colors duration-300
+      className={`flex flex-row grow items-center justify-center gap-1 transition-colors duration-300
         ${position === "left" ? "rounded-l-full" : position === "right" ? "rounded-r-full" : ""} 
         ${isActive ? "bg-secondary text-accents" : "bg-none text-secondary"}`}
     >
